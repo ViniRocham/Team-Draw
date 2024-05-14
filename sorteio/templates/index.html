@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio de Times de Futebol</title>
+    <link rel="stylesheet" href="/sorteio/static/styless.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sorteio de Times de Futebol</h1>
+        <label for="numTimes">Número de Times:</label>
+        <input type="number" id="numTimes" min="1">
+        <label for="numJogadores">Jogadores por Time:</label>
+        <input type="number" id="numJogadores" min="1">
+        <button onclick="realizarSorteio()">Sortear</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="/sorteio/static/script.js"></script>
+</body>
+</html>
